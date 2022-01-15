@@ -22,7 +22,7 @@ try:
 	        	write_message(sender, 'ВКонтакте: \n\n6₽ = 100 Просмотров.\n10₽ = 100 Лайков.\n20₽ = 100 Репостов. \n20₽ = 100 Подписчиков.\n40₽ = 100 Подписчиков (Живых). \n\nЕсли готовы сделать заказ напишите: \nКоличество и "Ссылку"\n\nАдминистратор примет ваш заказ в ближайшее время.')
 	        elif reseived_message[0:5] == 'insta' or reseived_message[0:5] == 'инста' or reseived_message[0:5] == 'инсту':
 	        	write_message(sender, 'Инстаграм: \n10₽ = 100 Подписчиков.\n5₽ = 100 Лайков. \n\nЕсли готовы сделать заказ напишите: \nКоличество и "Ссылку"\n\nАдминистратор примет ваш заказ в ближайшее время.')
-	        elif 'боты' in str(reseived_message.split()) and 'или' in str(reseived_message.split()) or 'аудитория' in reseived_message or 'жив'[0:3] in str(reseived_message.split()) and 'или' in str(reseived_message.split()) or 'актив'[0:5] and '?' in reseived_message:
+	        elif 'боты' in str(reseived_message.split()) and 'или' in str(reseived_message.split()) or 'аудитория' in reseived_message or 'жив'[0:3] in str(reseived_message.split()) and 'или' in str(reseived_message.split()) or 'актив'[0:5] in str(reseived_message.split()) and '?' in reseived_message:
 	        	write_message(sender, '40p за 100 Живых (Активных)')
 	        elif reseived_message == 'прайс' or 'цен'[0:3] in uiui(reseived_message) or reseived_message[0:8] == 'расценки' or reseived_message[0:10] == 'подписчики':
 	        	write_message(sender, 'ВКонтакте: \n\n6₽ = 100 Просмотров.\n10₽ = 100 Лайков.\n20₽ = 100 Репостов. \n20₽ = 100 Подписчиков.\n40₽ = 100 Подписчиков (Живых). \n\nИнстаграм: \n10₽ = 100 Подписчиков.\n5₽ = 100 Лайков. \n\nЕсли готовы сделать заказ напишите: \nКоличество и "Ссылку"\n\nАдминистратор примет ваш заказ в ближайшее время.')
