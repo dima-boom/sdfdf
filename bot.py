@@ -34,7 +34,7 @@ try:
 	        	write_message(sender, 'Всегда пожалуйста ;)')
 	        elif 'qiwi'[0:4] in uiui(reseived_message) or 'киви'[0:4] in uiui(reseived_message):
 	        	user = authorize.method("users.get", {"user_ids": event.user_id})  
-            	name = str(user[0]['first_name'] + ' ' + user[0]['last_name'])
+            	        name = str(user[0]['first_name'] + ' ' + user[0]['last_name'])
 	        	write_message(sender, f'Qiwi - 79283692011 \n\nКоментарий к платежу: {name}.')
 	        elif 'карт'[0:4] in uiui(reseived_message) or reseived_message[0:4] == 'сбер' or reseived_message[0:3] == 'сбп':
 	        	write_message(sender, f'Номер карты - 4276600059773339 \nСбп - 79064601130 \nЭто Сбербанк.\n\nКоментарий к платежу: {name}.')
