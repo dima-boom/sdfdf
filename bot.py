@@ -10,7 +10,7 @@ try:
 	def uiui(text):
 		return str(text.split())
 
-	token = "432ccbea79c1c0dbeb3db0c5673e880746478cf1e0db3bd7a77b4f585b79cd2fda41fb13460d01aabd983"
+	token = "fdfeb8e472ef22c618a245e782d2c39d8d95d2460ffcaccb49eb7a4dd1720391620ee9e9a17241728e636"
 	authorize = vk_api.VkApi(token=token)
 	longpoll = VkLongPoll(authorize)
 	admin = 574170405
