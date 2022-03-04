@@ -27,7 +27,7 @@ try:
 	        elif 'прайс' in str(reseived_message.split()) or 'цен'[0:3] in uiui(reseived_message) or reseived_message[0:8] == 'расценки' or reseived_message[0:10] == 'подписчики' or reseived_message == 'здравствуйте':
 	        	write_message(sender, 'ВКонтакте: \n\n10₽ = 100 Просмотров.\n15₽ = 100 Лайков.\n25₽ = 100 Репостов. \n25₽ = 100 Подписчиков.\n50₽ = 100 Подписчиков (Живых). \n\nИнстаграм: \n10₽ = 100 Подписчиков.\n5₽ = 100 Лайков. \n\nЕсли готовы сделать заказ напишите: \nКоличество и "Ссылку"\n\nАдминистратор примет ваш заказ в ближайшее время.')
 	        elif 'дмитрий'[0:7] in uiui(reseived_message) and '?' in reseived_message or reseived_message[0:18] == 'дмитрий витальевич':
-	        	write_message(sender, 'Да верно! \nМожете делать перовод.')
+	        	write_message(sender, 'Да верно! \nМожете делать перевод.')
 	        elif 'пруф'[0:4] in uiui(reseived_message) or 'скрины' in uiui(reseived_message) or 'доказательства' in uiui(reseived_message) or 'доверять' in uiui(reseived_message) or 'доки' in uiui(reseived_message) or 'наёб' in uiui(reseived_message) or 'обман'[0:5] in uiui(reseived_message):
 	        	write_message(sender, 'Под группой есть скрины покупок и отзывы клиентов, можете отзнакомиться.')
 	        elif 'спасиб'[0:6] in reseived_message or 'спс' in reseived_message or 'от души' in reseived_message:
